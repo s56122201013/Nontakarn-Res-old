@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Nontakarn.Nontakarn_restaurant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nontakarn_restaurant"
+
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.Nontakarn.Nontakarn_restaurant.MainActivity">
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Nontakarn.Nontakarn_restaurant.ShowProduct" />
+        <activity android:name="com.Nontakarn.Nontakarn_restaurant.SignUpActivity"></activity>
+    </application>
+
+</manifest>
